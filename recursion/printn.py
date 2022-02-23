@@ -12,6 +12,9 @@ fun(5)"""
 def reverse(n):
     if n==0:
         return
+       
+    print(n)
+
     reverse(n-1)
     print(n)
 reverse(5)
