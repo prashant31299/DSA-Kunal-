@@ -5,7 +5,7 @@ def findindexlist(arr,t,i):
     if arr[i]==t:
         list.append(i)
     
-    return findindexlist(arr,t,i+1)
+     return findindexlist(arr,t,i+1)
 
 
 A=[]
